@@ -1,0 +1,96 @@
+body {
+    background: linear-gradient(to bottom, #d12525, #ffda79);
+  }
+/* Estilo para toda la tabla */
+table {
+    border: 2px solid #FFA500; 
+    background-color: #FFFF00; 
+    color: #FF0000; 
+    border-collapse: collapse; 
+    margin: 100px;
+
+  }
+  
+  /* Estilo para la primera fila de la tabla */
+  table tr:first-child {
+    background-color: #FFA500; 
+    color: #FFFFFF; 
+  }
+  
+  /* Estilo para las celdas de la tabla */
+  table td, table th {
+    border: 1px solid #FFA500; 
+    padding: 10px; 
+  }
+  
+  #indc {
+    text-align: left;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  p {
+    font-family: sans-serif;
+  }
+  /* Estilo para los links */
+  a {
+    color: #0004d4; 
+    text-decoration: none; 
+    border-bottom: 1px solid #0004d4; 
+  }
+  
+  a:hover {
+    color: #250050; 
+    background-color: #75ad86; 
+    border-bottom: 1px solid #75ad86; 
+  }
+  
+  /* Estilo para el formulario */
+  form {
+    border: 2px solid #FFA500; 
+    background-color: #FFFF00; 
+    color: #FF0000; 
+    padding: 20px; 
+    margin: 20px; 
+  }
+  
+  /* Estilo para los campos del formulario */
+  form input, form textarea {
+    border: 1px solid #FFA500; 
+    background-color: #FFFFFF; 
+    color: #FF0000; 
+    padding: 5px; 
+    margin-bottom: 10px; 
+  }
+  
+  .btn {
+    background-color: #4CAF50; /* Color de fondo */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px; /* Borde redondeado */
+    animation: cambio-color 2s ease-in-out infinite; /* Animación de cambio de color */
+  }
+  
+  /* Definición de la animación */
+  @keyframes cambio-color {
+    0% { background-color: #4CAF50; }
+    25% { background-color: #ff00aa; }
+    50% { background-color: #2196F3; }
+    75% { background-color: #000000; }
+    100% { background-color: #4CAF50; }
+  }
