@@ -2,7 +2,7 @@
 <rss version="2.0">
 <channel>
 <title>Página web de ERIC - Noticias</title>
-<link>https://ktkuri.github.io/Web1/index.html</link>
+<link>https://ktkuri.github.io/Web1/</link>
 <description>Feed RSS de noticias sobre ratones de última generación</description>
 <!--  La parte fija opcional  -->
 <language>es-ES</language>
@@ -10,8 +10,8 @@
 <title>RSSlogo</title>
 <url>../Fotos/rsslogo.png</url>
 <link>https://ktkuri.github.io/Web1/index.html</link>
-<width>90</width>
-<height>36</height>
+<width>20</width>
+<height>20</height>
 </image>
 
 <!-- Noticia 1 -->
