@@ -1,0 +1,39 @@
+﻿<!--  La parte fija del fichero xml correspondiente a un rss  -->
+<rss version="2.0">
+<channel>
+<title>Página web de ERIC - Noticias</title>
+<link>https://ktkuri.github.io/Web1/index.html</link>
+<description>Feed RSS de noticias sobre ratones de última generación</description>
+<!--  La parte fija opcional  -->
+<language>es-ES</language>
+<image>
+<title>RSSlogo</title>
+<url>../Fotos/rsslogo.png</url>
+<link>https://ktkuri.github.io/Web1/index.html</link>
+<width>90</width>
+<height>36</height>
+</image>
+
+<!-- Noticia 1 -->
+<item>
+<title>El ratón gaming de Logitech más profesional se desploma por debajo de los 40 euros</title>
+<link>https://www.mundodeportivo.com/alfabeta/ofertas/el-raton-gaming-de-logitech-mas-profesional-se-desploma-por-debajo-de-los-40-euros</link>
+<description>Descripción de la noticia 1</description>
+</item>
+
+<!-- Noticia 2 -->
+<item>
+<title>Razer presenta su nuevo ratón gaming ultraligero: el Viper Mini Signature Edition</title>
+<link>https://as.com/meristation/noticias/razer-presenta-su-nuevo-raton-gaming-ultraligero-el-viper-mini-signature-edition-n/</link>
+<description>Descripción de la noticia 2</description>
+</item>
+
+<!-- Noticia 3 -->
+<item>
+<title>¿Qué ratón gaming Forgeon elegir?</title>
+<link>https://www.pccomponentes.com/que-raton-gaming-forgeon-elegir</link>
+<description>Descripción de la noticia 3</description>
+</item>
+
+</channel>
+</rss>
